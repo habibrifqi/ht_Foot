@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.awal{
+    height: 100%;
+    width: 100%;
+    position: static;
+
+}
+.cc-nav{
+   position: relative;
+    z-index: 1;    
+}
+nav{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+#navbarNavAltMarkup .navbar-nav .nav-link{
+    font-family: 'Open Sans';
+    color: #ffffff;
+    margin-left: 1em;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+.custom-nav .navbar-brand .logo{
+    width: 40px;
+    margin-top: -7px;
+    
+}
+.custom-nav .navbar-brand .judul{
+    width: 40px;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    color: #E8E8E8;
+    margin-left: -15px;
+    font-weight: 800;
+    
+}
+
+.navbar-nav{
+    margin-left: 3em;
+    
+}
+
+
+.img1{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.img1 img{
+    /* height: 1581px; */
+    /* height: auto; */
+    width: 100%;
+    height: 100%;
+}
+.title{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 70px;
+}
+.title h1{
+    
+    font-family: 'Open Sans';
+    font-weight: 600;  
+    color: white;
+    line-height: 0.8;
+    font-size: 80px;
+    
+}
+.title .pp{
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 550; 
+    margin-left: auto ;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: -20px;
+    line-height: 1.3;
+    
+}
+/* //hover */
+.nav-item{
+    position: relative;
+}
+/* hover */
+.nav-item::after{
+    content: '';
+    position: absolute;
+    z-index: 3;
+    height: 0.175em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.nana::after{
+    transform: scale(0, 1);
+    transition:transform 0.3s ease;
+}
+
+.nana:hover::after{
+    transform: scale(1, 1);
+    
+}
+.hh:hover{
+    transform: scale(1.1);
+    transition:transform 0.3s
+}
+.Menu{
+
+    width: 80%;
+    height: 700px;
+    margin: 100px auto 0px auto;
+    position: relative;
+    z-index: 1;
+    
+}
+.Menu .menu-judul{
+    text-align: center;
+    
+}
+.Menu .menu-judul h1{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #6788B1;
+}
+.menu-populer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap:auto;
+    justify-content: space-around;
+    /* background-color: #578; */
+    /* background-color: white; */
+    
+    
+    
+}
+.menu-populer .populer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 5px 20px grey;
+    border: rgb(255, 255, 255) 3px dashed;
+    color: gra
+    
+}
+
+.populer .popular-img{
+    width: 100%;
+    height: 55%;
+    position: relative;
+    /* background-color: black; */
+}
+.populer .popular-img .pp1{
+    object-fit:cover;
+    object-position:-50px ;
+    width: 100%;
+    height: 100%;
+}
+.populer-dess h3{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    
+}
+.populer-dess{
+    padding: 5px;
+}
+.dess-pop{
+    height: 100px;
+    overflow: hidden;
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+.dess-pop p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: black;
+}
+
+.populer-dess h4{
+    margin-top: 10px;
+    float: right;
+    
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:inherit;
+}
+.gmb-pp{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+.tombol-more{
+    position: relative;
+    z-index: 2;
+    /* width: 50px ;
+    height: ; */
+    width: auto;
+    height: auto;
+    display: flex;
+    
+    margin: 70px auto 0px auto;
+    /* background-color: hotpink; */
+    justify-content: center;
+    
+}
+.tombol-more button{
+        background-color: #6788B1; /* Green */
+    color: #ffffff;
+        border-radius: 2em;
+        padding: 0.4em 3em;
+        text-decoration: none;
+        border: none;
+        font-family: 'Open Sans';
+        font-weight: 500;
+        font-size: 23px;
+        box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tombol-more button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.mm{
+    position: static;
+    width: 100%;
+    height: 1000px;
+    /* background-color: #FFCF92; */
+    background-color: #F66B95;
+    /* z-index: 7; */
+    /* margin-top: 500px; */
+    z-index: 7;
+    display: hidden;
+}
+
+
+.nn{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: -700px;
+}
+.row .gmb-discon{
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.gmb-discon img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* object-position: 20px 0px; */
+}
+.desdis h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    /* line-height: 0.7; */
+    color: #0a0a0a;
+}
+.desdis .paf-dis p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    /* line-height: 0.7; */
+}
+
+.desdis{
+    margin-top: 100px;
+}
+
+.tombol-diskon button{
+    background-color: #6788B1; /* Green */
+color: #ffffff;
+    border-radius: 2em;
+    padding: 0.4em 3em;
+    text-decoration: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 23px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 20px;
+}
+.tombol-diskon button:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.fot{
+    width: 100%;
+    height: auto;
+    background-color: #E2EDC2;
+    margin-top: 35px;
+    
+}
+footer{
+    background-color: #E2EDC2;
+}
+
+.row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+/* .title h1{
+    font-family: 'Open Sans';
+    font-weight: 600;  
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: 80px;
+    top: 40px;
+    line-height: 0.8;
+
+}
+.title .pp{
+    height: 700px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    /* margin: auto auto; */
+    /* margin-top: 5em;
+    line-height: 0.3;
+    text-overflow: clip;
+} */ 
+
+/* a h3{
+    font-family: 'Open Sans';
+    font-weight: 600; 
+} */
+
+@media screen and (max-width: 900px) {
+    .img1 img{
+        /* height: 1581px; */
+        /* height: auto; */
+        object-fit:cover;
+        width: 100%;
+        height: 2100px;
+        
+    }
+    .title .pp{
+        margin: auto ;
+        
+        width: auto;
+        height: auto;
+        margin-top: -30px;
+    }
+    .Menu{
+        margin-top: 400px;
+    }
+    .menu-populer{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+        grid-column-gap:auto;
+        gap: 20px;
+        justify-content: space-around;
+        /* background-color: #578; */
+        
+        
+        
+    }
+    .menu-populer .populer{
+        width: 250px;
+        height: 350px;
+        background-color: #fff;
+        margin: 0 auto;
+        
+    }
+    .populer .popular-img .pp1{
+        object-fit: cover;
+        object-position:-1px ;
+        width: 100%;
+        height: 100%;
+    }
+    .row{
+        width: 100%;
+        margin-top: 400px;
+        
+    }
+    .populer-dess h3{
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .dess-pop p{
+        font-size: 0.7rem;
+    }
+    .populer-dess h4{
+        margin-top: -10px;
+    }
+    .row .gmb-discon{
+        width: 120%;
+        height: auto;
+        margin-left: 7%;
+        margin-right: 0%;
+    }
+
+    .desdis h2{
+        margin-left: 25%;
+        margin-right: 0%;
+    }
+    .desdis p{
+        margin-left: 10%;
+        margin-right: 0%;
+        text-align: justify;
+    }
+    .more-info{
+        margin-left: 23%;
+        margin-right: 0%;
+    }
+        
+     
+}
+/* .cc{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns:auto;
+    z-index: 2;
+    position: absolute;
+    margin-top: -1400px;
+} */
+/* .cc h1{
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 6em;
+    color: floralwhite;
+    line-height: 0.8;
+    font-weight: 600;
+}
+.cc .judul-pp{
+    
+    margin-top: 20px;
+}
+.cc p{
+    text-align: center;
+    color: floralwhite;
+    line-height: 1;
+    font-size: 20px;
+} */
